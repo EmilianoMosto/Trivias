@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de Capitales</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    button {
+      display: block;
+      margin: 5px 0;
+    }
+  </style>
+
+</head>
+<body>  
+  <div id="seleccion-dificultad">
+    <h2>Selecciona la dificultad</h2>
+    <button onclick="iniciarJuego('facil')">Fácil</button>
+    <button onclick="iniciarJuego('medio')">Medio</button>
+    <button onclick="iniciarJuego('dificil')">Difícil</button>
+  </div>
+
+<div id="game-container" style="display: none;">
+  <h1>Juego de Capitales</h1>
+  <h2 id="pregunta"></h2>
+  <div id="opciones"></div>
+  <p id="vidas"></p>
+  <div id="contador-respuestas">Correctas: 0 | Incorrectas: 0</div>
+  <p id="numero-pregunta"></p>
+  <p id="contador-respuestas"></p>
+  <p id="temporizador"></p>
+</div>
+
+
+  <script src="game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(102, 127, 238, 0.884);
+    width: 600px;
+    text-align: center;
+}
+
+button {
+  font-weight: bold;
+  margin: 5px;
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+#seleccion-dificultad {
+  font-size: 40px;
+  margin-bottom: 300px;
+  color: #5e59ad;
+}
+
+
+#options button:hover {
+    background-color: #f0f0f0;
+}
+
+#opciones button {
+  white-space: normal; /* Permite saltos de línea */
+  word-wrap: break-word; /* Rompe palabras largas si es necesario */
+  text-align: center; /* Centra el texto horizontalmente */
+  vertical-align: middle;
+  line-height: 1.2; /* Acomoda mejor el interlineado si hay dos líneas */
+  height: 60px; /* Asegura altura suficiente para una o dos líneas */
+  padding: 8px;
+  font-size: 16px; /* Ajustá si lo querés más chico */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-wrap: pretty;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#pregunta {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#vidas {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.fila-opciones {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 10px; 
+  margin-top: 20px;
+}
+
+.fila-opciones button {
+  min-width: 120px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  white-space: normal;
+}
+
+.boton-opcion {
+  padding: 10px 20px;
+  min-width: 150px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  white-space: normal; /* para capitales con dos palabras */
+  word-break: break-word;
+}
+
+
+#temporizador {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
